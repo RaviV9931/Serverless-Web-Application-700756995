@@ -1,0 +1,67 @@
+<html>
+<head>
+    <title>Profile</title>
+    </title>
+</head>
+<body>
+    <div align="center">
+        <h1>Welcome to Zillow</h1>
+
+		<h1>New Account</h1>
+
+
+        User Name:
+        <br>
+        <input type="text" name="userId" id="userid">
+        <br> First Name:
+        <br>
+        <input type="text" name="firstname" id="fname">
+        <br> Last Name:
+        <br>
+        <input type="text" name="lastname" id="lname">
+        <br>Email:
+        <br>
+		<input type="text" name="emailid" id="email">
+        <br>Password:
+		<br>
+		<input type="text" name="password" id="pwd">
+        <br>Mobile Number:
+		<br>
+		<input type="text" name="mobileNumber" id="mnumber"><br>
+        <br>
+        <input type="submit" id="createAccount" value="Create Account">
+        <br>
+        <p id="UserAccountCreated"></p>
+        <br>
+		<br>
+        <input type="submit" id="getusers" value="View all User profiles">
+        <br>
+		<br>
+        <div id="showProfile">
+            <table id="UserProfile">
+                <colgroup>
+                    <col style="width:15%">
+                    <col style="width:15%">
+                    <col style="width:15%">
+                    <col style="width:15%">
+					<col style="width:15%">
+					<col style="width:15%">
+
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <th>User Name</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+						<th>Email</th>
+						<th>Password</th>
+                        <th>Mobile Number</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="js.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+</body>
+</html>
